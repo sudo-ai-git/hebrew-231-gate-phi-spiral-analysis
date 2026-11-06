@@ -1,5 +1,7 @@
 # 231-Gate Three-Channel Analysis of the Masoretic Text (Tanakh)
 
+**Source:** https://github.com/sudo-ai-git/hebrew-231-gate-phi-spiral-analysis
+
 **A mathematical and geometric verification of the 231-gate checksum decomposition
 of the Hebrew Bible, plus a 3-D phi-spiral lattice visualization.**
 
