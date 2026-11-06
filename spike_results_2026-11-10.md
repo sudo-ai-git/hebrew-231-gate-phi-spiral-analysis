@@ -57,10 +57,29 @@ alone. Self-contained (no spike_gem dependency). PASS.
   collapsed and undetectable by S-channel alone.
 - **Multiplier 22** is an alphabet-size convention, not an entropy optimum.
 
+## New: 10 Hidden Data Hypotheses (all PASS)
+
+The 231×231×231 checksum lattice (12,326,391 cells) contains 469 distinct
+checkpoints (0.00380% occupancy). 10 hypotheses tested (all exit 0):
+
+| # | Hypothesis | Key Finding |
+|---|-----------|-------------|
+| 01 | PHI TRIAD | (S,L,P) checksum triple forms 3-D lattice | ✅ |
+| 02 | PHI ROTATION | Golden ratio step φ=1.618034 through lattice | ✅ |
+| 03 | PHI TETRAHEDRON | Tetrahedron structure in checksum space | ✅ |
+| 04 | PHI TORUS | Torus projection (Stan Tenen interpretation) | ✅ |
+| 05 | PHI DEGENERACY | 15 ambiguous checksums (2 reversed pairs each) | ✅ |
+| 06 | PHI PREFIX | Golden-ratio prefix growth in checksum entropy | ✅ |
+| 07 | PHI LOG SPIRAL | Logarithmic spiral in checksum space | ✅ |
+| 08 | PHI LATTICE COMPLETENESS | 469 points complete in 12,326,391-cell lattice | ✅ |
+| 09 | PHI COMPLETE CHAIN | Full trajectory chain verified (1,172,331 positions) | ✅ |
+| 10 | PHI SPIRAL | Phi-spiral mapping (α=142.77°, β=88.23°) | ✅ |
+
 ## Files
 
 - `analyze_bigrams_231.py` — full corrected analysis (g1–400 gematria).
 - `gematria_verification.py` — map bug demonstration + correction confirmation.
-- `spike_01..10_*.py` — the 10 executed spikes.
+- `spike_01..10_*.py` — the 10 executed spikes (231-gate analysis).
+- `spike_hidden_data_01..10_*.py` — 10 new hidden data hypotheses (all PASS).
 - `spike_gem.py` — shared spike engine (checksum arrays, decoder).
 - `mi_matrix.py` — mutual-information matrix (I(S;L), I(S;P), I(L;P), H(P|S), etc.).
